@@ -22,7 +22,7 @@ var musicPlay = function(id){
 	sound.play(audio);
 };
 var sound = new Howl({
-	urls: ['./assets/audio/test.wav'],
+	urls: ['./assets/audio/test.mp3'],
 	sprite: {
 		none: [0,0],
 		do: [2500, 600],
